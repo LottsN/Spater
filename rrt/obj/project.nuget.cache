@@ -1,0 +1,121 @@
+{
+  "version": 2,
+  "dgSpecHash": "LO0UxSYJOV6amu/Qcc55DkhevqQ1GQr72f7rHP1LBPssttg8DIROO7eFl20ypec26VTPTay9ckN17YKxVgxvOA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Acer\\Documents\\GitHub\\Spater\\rrt\\rrt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.5\\microsoft.entityframeworkcore.sqlserver.6.0.5.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.5\\microsoft.entityframeworkcore.tools.6.0.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8). Package Microsoft.EntityFrameworkCore 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8). Package Microsoft.EntityFrameworkCore.SqlServer 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Tools 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8). Package Microsoft.EntityFrameworkCore.Tools 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8) / win. Package Microsoft.EntityFrameworkCore 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8) / win. Package Microsoft.EntityFrameworkCore.SqlServer 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Tools 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8) / win. Package Microsoft.EntityFrameworkCore.Tools 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8) / win-x64. Package Microsoft.EntityFrameworkCore 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8) / win-x64. Package Microsoft.EntityFrameworkCore.SqlServer 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Tools 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8) / win-x64. Package Microsoft.EntityFrameworkCore.Tools 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8) / win-x86. Package Microsoft.EntityFrameworkCore 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8) / win-x86. Package Microsoft.EntityFrameworkCore.SqlServer 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Tools 6.0.5 is not compatible with net48 (.NETFramework,Version=v4.8) / win-x86. Package Microsoft.EntityFrameworkCore.Tools 6.0.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}

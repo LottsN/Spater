@@ -75,3 +75,5 @@ C:\Users\Acer\source\repos\rrt\rrt\bin\Debug\Microsoft.EntityFrameworkCore.Desig
 C:\Users\Acer\source\repos\rrt\rrt\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Acer\source\repos\rrt\rrt\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
 C:\Users\Acer\source\repos\rrt\rrt\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Acer\Documents\GitHub\Spater\rrt\obj\Debug\rrt.exe
+C:\Users\Acer\Documents\GitHub\Spater\rrt\obj\Debug\rrt.pdb
