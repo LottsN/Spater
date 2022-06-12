@@ -17,6 +17,10 @@ namespace rrt
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            ILoginView loginView = new ILoginView();
+            IRegisterView registerView = new IRegisterView();
+            IAuthService authService = new IAuthService();
+            AuthController controller = new AuthController(loginView, registerView, authService);
             Application.Run(new Form1());
         }
     }

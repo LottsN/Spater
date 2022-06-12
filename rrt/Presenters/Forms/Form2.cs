@@ -13,7 +13,7 @@ using System.Threading;
 
 namespace rrt
 {
-    public partial class Form2 : MaterialForm
+    public partial class Form2 : MaterialForm, IRegisterView
     {
         public static Form2 instance;
 
@@ -87,7 +87,13 @@ namespace rrt
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
-            OpenAppForm();
+            if (edPassword.Text != edPasswordConfirm.Text)
+            {
+                edName.Text = "Passwords don't match"; 
+                break;
+            }
+            if (authService.Register(edEmail.Text, edName.Text, edPassword.Text)) OpenAppForm();
+            else edName.Text = "Wrong data";
         }
     }
 }
