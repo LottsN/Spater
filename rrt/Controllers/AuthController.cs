@@ -20,5 +20,17 @@ namespace rrt.Controllers
             loginView.SetController(this);
             registerView.SetController(this);
         }
+
+        bool Login(string Email, string Password)
+        {
+            if (_authService.Login(Email, Password)) return true;
+            else return false;
+        }
+
+        bool Register(string Email, string Name, string Password, bool RememberMe)
+        {
+            if (_authService.Register(Email, Name, Password, RememberMe)) return true;
+            else return false;
+        }
     }
 }
