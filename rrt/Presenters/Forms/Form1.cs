@@ -13,7 +13,7 @@ using System.Threading;
 
 namespace rrt
 {
-    public partial class Form1 : MaterialForm
+    public partial class Form1 : MaterialForm, ILoginView
     {
         public static Form1 instance;
         public MaterialTextBox dataLogin;
@@ -75,7 +75,8 @@ namespace rrt
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
-            OpenAppForm();
+            if (Login(edLogin.Text, edPassword.Text)) OpenAppForm();
+            else edLogin.Text = "Wrong data!";
         }
 
         private void materialButton2_Click(object sender, EventArgs e)
